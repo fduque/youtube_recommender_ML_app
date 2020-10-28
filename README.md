@@ -20,7 +20,7 @@
 - [ ] API Prediction
 - [ ] Implement some Database
 
-# Packages used:
+## Packages used:
 - gunicorn==20.0.4
 - Flask==1.1.1
 - requests==2.22.0
@@ -32,5 +32,5 @@
 - scikit-learn==0.20.3
 - lightgbm==2.3.0
 
-# Related links:
+### Related links:
 - https://github.com/ledmaster
