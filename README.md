@@ -21,16 +21,16 @@
 - [ ] Implement some Database
 
 # Packages used:
-gunicorn==20.0.4
-Flask==1.1.1
-requests==2.22.0
-beautifulsoup4==4.7.1
-pandas==0.25.1
-joblib==0.13.2
-numpy==1.17.2
-scipy==1.3.0
-scikit-learn==0.20.3
-lightgbm==2.3.0
+- gunicorn==20.0.4
+- Flask==1.1.1
+- requests==2.22.0
+- beautifulsoup4==4.7.1
+- pandas==0.25.1
+- joblib==0.13.2
+- numpy==1.17.2
+- scipy==1.3.0
+- scikit-learn==0.20.3
+- lightgbm==2.3.0
 
 # Related links:
 - https://github.com/ledmaster
