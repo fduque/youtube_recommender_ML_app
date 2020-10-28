@@ -17,7 +17,7 @@
 - [x] Data Extraction
 - [x] EDA
 - [x] Modeling
-- [x] Ugly Front Page :)
+- [x] Simple Front Page
 - [x] Heroku Deploy
 - [ ] API Prediction
 - [ ] Implement some Database
