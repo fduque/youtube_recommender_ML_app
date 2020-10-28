@@ -7,7 +7,7 @@
 - From data extraction to deploying model, the project uses an ensemble model (LightGBM and RandomForest) to predict which ytube video would be interesting based on three keywords ["machine+learning", "data+science", "kaggle"].
 
 ## Check below a high-level diagram of the project:
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/fduque/youtube_recommender_ML_app/blob/9180e60b10f13faf071ccd0b010599c507d429a7/projeto_ML_youtube.png)
 
 
 
