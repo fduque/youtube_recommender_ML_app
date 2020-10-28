@@ -21,6 +21,7 @@
 - [x] Heroku Deploy
 - [ ] API Prediction
 - [ ] Implement some Database
+- [ ] Implement Cloud of words chart based on TFIDVectorizer
 
 ## Packages used:
 - gunicorn==20.0.4
