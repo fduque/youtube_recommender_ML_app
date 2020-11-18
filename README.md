@@ -38,11 +38,11 @@
 
 ## Running project:
 Running local with Flask:
-1 - Git clone repository
-2 - Create venv
-3 - Activate venv
-4 - Install requirements
-5 - Start Flask server
+1. Git clone repository
+2. Create venv
+3. Activate venv
+4. Install requirements
+5. Start Flask server
 
 ```console
 git clone https://github.com/fduque/youtube_recommender_ML_app.git ytube
@@ -54,9 +54,9 @@ flask run
 ```
 
 Running local with Docker:
-1 - Turn on Docker Desktop
-2 - Execute build docker 
-3 - Run docker
+1. Turn on Docker Desktop
+2. Execute build docker 
+3. Run docker
 
 ```console 
 docker build . -t appinstance1
