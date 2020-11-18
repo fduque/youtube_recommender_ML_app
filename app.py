@@ -1,8 +1,11 @@
 import os.path
-from flask import Flask
 import os
 import json
 import run_backend
+import ml_utils
+import get_data
+from flask import Flask
+from flask import request as requests
 
 import time
 
@@ -50,6 +53,20 @@ def main_page():
         {}
     </table>
     </body>""".format((time.time_ns() - last_update) / 1e9, preds)
+
+@app.route('/predict')
+def predict_api():
+    yt_video_id = requests.args.get("yt_video_id", default='')
+    video_page = get_data.download_video_page("/watch?v={}".format(yt_video_id))
+    video_json_data = get_data.parse_video_page(video_page)
+
+    if 'watch-time-text' not in video_json_data:
+        return "not_found"
+
+    p = ml_utils.compute_prediction(video_json_data)
+    output = {"title": video_json_data['watch-title'], "score": p}
+
+    return json.dumps(output)
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

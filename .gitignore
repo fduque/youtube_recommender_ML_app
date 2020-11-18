@@ -5,3 +5,4 @@ LightGBM/
 .ipynb_checkpoints
 *pyc
 __pycache__
+.ml_app
